@@ -6,7 +6,7 @@ not be distributed.
 
 The library is functionally equivelent to 
 [XML-Document-Transform](https://docs.microsoft.com/en-us/previous-versions/aspnet/dd465326(v=vs.110))
-with two additional commands.
+with three additional commands.
 
 #### Remove Previous / Following Comment
 
