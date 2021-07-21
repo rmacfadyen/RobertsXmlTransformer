@@ -12,8 +12,8 @@ with three additional commands.
 
 To remove a comment in an XML file the RemovePreviousComment or RemoveFollowingComment transform can be used:
 
-    <?xml version=""1.0""?>
-    <a xmlns:xdt=""http://schemas.microsoft.com/XML-Document-Transform"">
+    <?xml version="1.0"?>
+    <a xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
       <b>
         <c key="abc" xdt:Locator="Match(key)" xdt:Transform="RemovePreviousComment" />
       </b>
@@ -21,8 +21,8 @@ To remove a comment in an XML file the RemovePreviousComment or RemoveFollowingC
 
 or
 
-    <?xml version=""1.0""?>
-    <a xmlns:xdt=""http://schemas.microsoft.com/XML-Document-Transform"">
+    <?xml version="1.0"?>
+    <a xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
       <b>
         <c key="abc" xdt:Locator="Match(key)" xdt:Transform="RemoveFollowingComment" />
       </b>
@@ -32,7 +32,7 @@ or
 
 To add a comment in an XML file the Comment transform can be used:
 
-    <?xml version=""1.0""?>
-    <a xmlns:xdt=""http://schemas.microsoft.com/XML-Document-Transform"">
-      <b key=""abc"" xdt:Locator=""Match(key)"" xdt:Transform=""Comment(abc""></b>
+    <?xml version="1.0"?>
+    <a xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+      <b key="abc" xdt:Locator="Match(key)" xdt:Transform="Comment(abc"></b>
     </a>
